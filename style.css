@@ -1,0 +1,12 @@
+body {
+    background-color: #eed2d2;
+    margin: 0;
+    padding: 0;
+}
+
+.inside-border {
+    height: 100vh;
+    background-color: #eed2d2;
+    border: 5px solid white;
+    margin: 10px;
+}
