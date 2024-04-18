@@ -1,12 +1,18 @@
-body {
-    background-color: #eed2d2;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #eed2d2;
 }
 
-.inside-border {
+#parent {
+    display: flex;
     height: 100vh;
-    background-color: #eed2d2;
-    border: 5px solid white;
-    margin: 10px;
+    padding: 15px;
+}
+
+#inside-border {
+    height: 100%;
+    width: 100%;
+    border: 7px solid white;
 }
