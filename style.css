@@ -45,7 +45,7 @@ h1 {
 
 @keyframes textclip {
     to {
-        background-position: 200% center;
+        background-position: -200% center;
     }
 }
 
