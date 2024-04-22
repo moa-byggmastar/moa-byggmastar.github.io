@@ -24,6 +24,15 @@
     border: 7px solid white;
 }
 
+
+#inside-border {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 7px solid white;
+}
+
 #inside-border-about {
     display: flex;
     align-items: center;
@@ -115,4 +124,12 @@ a:active {
     font-family: "Inknut Antiqua", sans-serif;
     font-weight: 400;
     font-size: 4rem;
+}
+
+#header-projects {
+    color: white;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-left: 2rem;
 }
