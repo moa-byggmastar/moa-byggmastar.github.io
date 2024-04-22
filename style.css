@@ -14,7 +14,7 @@
     padding: 15px;
 }
 
-#inside-border {
+#inside-border-index {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,16 @@
     border: 7px solid white;
 }
 
-h1 {
+#inside-border-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 7px solid white;
+}
+
+#header-index {
     color: white;
     font-family: "Inknut Antiqua", sans-serif;
     font-weight: 400;
@@ -49,11 +58,30 @@ h1 {
     }
 }
 
+#inside {
+    display: flex;
+    width: 75%;
+}
+
+img {
+    background-color: white;
+    height: 30rem;
+    width: 30rem;
+}
+
 h2 {
     color: white;
     font-family: "Inknut Antiqua", sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
+}
+
+p {
+    display: flex;
+    width: 50%;
+    color: white;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-size: 1.2rem;
 }
 
 a {
@@ -63,4 +91,11 @@ a {
     font-weight: 400;
     font-size: 2rem;
     margin: 1rem;
+}
+
+#header-about {
+    color: white;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
 }
