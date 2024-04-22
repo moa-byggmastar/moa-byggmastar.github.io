@@ -58,15 +58,23 @@
     }
 }
 
-#inside {
+#inside-info {
     display: flex;
     width: 75%;
 }
 
+#text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
 img {
+    border-radius: 25px;
     background-color: white;
     height: 30rem;
-    width: 30rem;
+    width: 20rem;
 }
 
 h2 {
@@ -91,6 +99,15 @@ a {
     font-weight: 400;
     font-size: 2rem;
     margin: 1rem;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(197, 192, 192);
+}
+
+a:active {
+    color: grey;
 }
 
 #header-about {
